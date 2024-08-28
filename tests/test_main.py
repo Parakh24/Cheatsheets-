@@ -28,7 +28,7 @@ def test_factorial_float_fail():
     with pytest.raises(TypeError):
         factorial(5.5)
     with pytest.raises(TypeError):
-        factorial(4.4)
+        factorial(3.2)
     with pytest.raises(TypeError):
         factorial(2.2)     
 
