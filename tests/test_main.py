@@ -5,7 +5,7 @@ import pytest
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from src.main import factorial
+from src.main import factorial 
 
 
 #tests for factorial
@@ -14,7 +14,7 @@ class TestFactorial(unittest.TestCase):
     def test_factorial(self):
         self.assertEqual(factorial(5), 120)
         self.assertEqual(factorial(4), 24)
-        self.assertEqual(factorial(3), 6) 
+        self.assertEqual(factorial(2), 2) 
     
     
 def test_factorial_integer():
