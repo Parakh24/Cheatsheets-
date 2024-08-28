@@ -6,7 +6,9 @@ def factorial(number) -> int:
  if number==0 or number==1:
     return 1
  
- 
+ elif number<0:
+  raise TypeError("Failed")
+
  else:
     return number*factorial(number-1)  
        
@@ -22,3 +24,5 @@ def main():
 if __name__ == "__main__":
    main()  
     
+
+ 
