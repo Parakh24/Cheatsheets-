@@ -16,7 +16,11 @@ def factorial(number) -> int:
 
 
 
+<<<<<<< HEAD
 def main():
+=======
+def main():  
+>>>>>>> main
    print(f"Factorial: {factorial(5)}") 
    print(f"Factorial: {factorial(4)}")
 
