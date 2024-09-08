@@ -7,7 +7,7 @@ def factorial(number) -> int:
     return 1
  
  elif number<0:
-  raise TypeError("Failed")
+  raise TypeError("Failed")   
 
  else:
     return number*factorial(number-1)  
@@ -16,11 +16,7 @@ def factorial(number) -> int:
 
 
 
-<<<<<<< HEAD
-def main():
-=======
 def main():  
->>>>>>> main
    print(f"Factorial: {factorial(5)}") 
    print(f"Factorial: {factorial(4)}")
 
